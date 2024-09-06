@@ -112,6 +112,7 @@ body {
 	color: #223456;
 	font-size: 24px;
 	margin: 5px 0;
+	font-family: 'Poltawski Nowy';
 }
 
 .location {
@@ -198,7 +199,35 @@ h2 {
 	text-decoration: underline;
 	transition: 0.2s ease;
 }
-.sleep {
+.sleep p {
+	margin: 20px 0;
 }
-.transportation {
+.sleep ul {
+	list-style: none;
+}
+.sleep li {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+	align-items: center;
+	gap: 5px;
+}
+.sleep a {
+	padding: 10px 30px;
+	border: 1px solid #223456;
+	color: #223456;
+	text-decoration: none;
+	width: fit-content;
+	font-family: 'Poltawski Nowy';
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.2s ease;
+}
+.sleep a:hover {
+	background-color: #223456;
+	color: white;
+	transition: 0.2s ease;
+}
+.transportation p {
+	margin: 20px 0;
 }
