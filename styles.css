@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #a2b8a5;
+}
+
+.main-container {
+	background-image: url(landing-page1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.card {
+	background-color: #f9f4ed;
+
+	border: 2px solid #ccc;
+	padding: 40px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.cardImg {
+	height: 400px;
+	position: absolute;
+	z-index: -1;
+}
+
+.right {
+	right: 200px;
+}
+
+@media (max-width: 999px) {
+	.right {
+		top: -100px;
+	}
+	.cardImg {
+		height: 300px;
+	}
+}
+
+.left {
+	left: -100px;
+	height: 450px;
+}
+
+.wedding {
+	margin: 0;
+	font-family: 'Dancing Script';
+	font-size: 2em;
+	color: #054509;
+}
+
+.invitation-card {
+	background-image: url(background2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 400px;
+	margin: 20px;
+	width: 100%;
+	max-width: 400px;
+	margin: 20px;
+	width: 100%;
+	border: 2px solid #ccc;
+	padding: 40px 20px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.top-section h1 {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	font-family: 'Poltawski Nowy';
+	font-weight: bold;
+	color: #223456;
+	margin-bottom: 15px;
+}
+
+.top-section h1 span:first-child {
+	font-size: 32px;
+	line-height: 39px;
+}
+.top-section h1 span:last-child {
+	font-size: 48px;
+	line-height: 48px;
+}
+
+.top-section p {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 60px 0;
+}
+
+.save-the-date {
+	font-family: 'Dancing Script';
+	color: #666;
+	font-size: 22px;
+}
+
+.date {
+	font-weight: bold;
+	color: #223456;
+	font-size: 24px;
+	margin: 5px 0;
+}
+
+.location {
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 15px;
+	max-width: 60%;
+}
+
+.details-container {
+	position: relative;
+	display: flex;
+	max-width: 1200px;
+	margin: 100px auto;
+	padding: 20px;
+	width: 100%;
+	column-gap: 20px;
+	row-gap: 40px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.space {
+}
+
+.details-container div {
+	width: 100%;
+}
+
+@media (min-width: 1000px) {
+	.details-container div {
+		width: 45%;
+	}
+}
+
+h2 {
+	font-family: 'Poltawski Nowy';
+	font-weight: bold;
+	color: #223456;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.details .hours {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	row-gap: 20px;
+}
+.details .hours p {
+	display: flex;
+	width: fit-content;
+	flex-direction: column;
+}
+.details p span {
+	font-family: 'Poltawski Nowy';
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.details small {
+	display: block;
+	width: 100%;
+	text-align: right;
+}
+.attendance p {
+	margin-bottom: 20px;
+}
+
+.attendance span {
+	font-family: 'Poltawski Nowy';
+	font-weight: bold;
+	font-size: 24px;
+}
+.attendance a {
+	color: forestgreen;
+	text-decoration: none;
+	transition: 0.2s ease;
+}
+.attendance a:hover {
+	color: darkgreen;
+	text-decoration: underline;
+	transition: 0.2s ease;
+}
+.sleep {
+}
+.transportation {
+}
