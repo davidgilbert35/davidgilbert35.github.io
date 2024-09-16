@@ -61,7 +61,7 @@ body {
 }
 
 .invitation-card {
-	background-image: url(background2.jpg);
+	background-image: url(background3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 400px;
@@ -230,4 +230,37 @@ h2 {
 }
 .transportation p {
 	margin: 20px 0;
+}
+
+.inclusions p {
+	margin: 20px 0;
+}
+.inclusions ul {
+	margin: 20px 0;
+	padding-inline-start: 20px;
+}
+.inclusions li {
+	margin: 20px 0;
+}
+
+.gifts p {
+	margin: 20px 0;
+}
+.gifts a {
+	margin: 0 auto;
+	padding: 10px 30px;
+	border: 1px solid #223456;
+	color: #223456;
+	text-decoration: none;
+	width: fit-content;
+	font-family: 'Poltawski Nowy';
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.2s ease;
+	display: block;
+}
+.gifts a:hover {
+	background-color: #223456;
+	color: white;
+	transition: 0.2s ease;
 }
