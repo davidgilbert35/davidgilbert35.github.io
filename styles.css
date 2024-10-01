@@ -23,10 +23,17 @@ body {
 
 .card {
 	background-color: #f9f4ed;
-
 	border: 2px solid #ccc;
 	padding: 40px;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transform: translateY(50px);
+	transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.card.visible {
+	opacity: 1;
+	transform: translateY(0);
 }
 
 .cardImg {
