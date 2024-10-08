@@ -242,6 +242,12 @@ h2 {
 .inclusions p {
 	margin: 20px 0;
 }
+.inclusions b {
+	font-family: 'Poltawski Nowy';
+	font-weight: bold;
+	font-size: 24px;
+	color: #223456;
+}
 .inclusions ul {
 	margin: 20px 0;
 	padding-inline-start: 20px;
